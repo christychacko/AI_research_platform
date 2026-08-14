@@ -1,0 +1,27 @@
+# --- Orchestration ---
+langgraph==0.2.60
+langchain==0.3.13
+langchain-core==0.3.28
+langchain-community==0.3.13
+langchain-openai==0.2.14
+
+# --- Agent crews ---
+crewai==0.95.0
+crewai-tools==0.25.8
+
+# --- AutoGen (data analysis sandbox agents) ---
+pyautogen==0.4
+
+# --- Free / local tools ---
+duckduckgo-search==6.3.5    # free web search, no API key
+sentence-transformers==3.3.1   # free local embeddings
+chromadb==0.5.23               # free local vector DB
+
+# --- Data analysis sandbox ---
+pandas==2.2.3
+matplotlib==3.9.3
+numpy==1.26.4
+
+# --- Utilities ---
+python-dotenv==1.0.1
+rich==13.9.4
