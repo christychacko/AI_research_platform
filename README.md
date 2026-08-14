@@ -43,8 +43,8 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
-Edit `.env` and add a free Groq API key:
-1. Go to https://console.groq.com → sign up (no credit card) → create an API key.
+ADD new `.env` file and add a free Groq API key:
+1. Go to https://console.groq.com → sign up → create an API key.
 2. Paste it into `GROQ_API_KEY=` in `.env`.
 
 That's it — DuckDuckGo search needs no key, embeddings run locally via
